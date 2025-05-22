@@ -1,0 +1,33 @@
+/* ImageModal.module.css */
+.Overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.7);
+  z-index: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Modal {
+  background: #fff;
+  border-radius: 8px;
+  padding: 0;
+  max-width: 90vw;
+  max-height: 90vh;
+  box-shadow: 0 4px 32px rgba(0, 0, 0, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  outline: none;
+}
+
+.photo {
+  max-width: 80vw;
+  max-height: 80vh;
+  border-radius: 4px;
+  display: block;
+}
